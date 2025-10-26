@@ -23,7 +23,7 @@ def main():
         print(" ".join(f"{x:8.2f}" for x in row))
 
     if negative_columns:
-        print(f"\nСтолбцы, содержащие только отрицательные элементы: {negative_columns}")
+        print(f"\nСтолбцы, содержащие отрицательные элементы: {negative_columns}")
     else:
         print("\nНет столбцов, содержащих только отрицательные элементы")
 if __name__ == "__main__":
